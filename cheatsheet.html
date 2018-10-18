@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta encoding="utf-8" />
+    <title>Cheatsheet</title>
+</head>
+
+<body style="background-color:#d8e7ff">
+    <font size="60" face="Impact" color="#434547"><center>Cheatsheet</font></center>
+    <p>
+
+        <strong>World Wide Web</strong>
+        <br><em>It was mainly developed by Tim Berners Lee's. Here's a little timeline.</em>
+        <br><em>1988: </em>First IP Connection between North america and europa
+        <br><em>1089: </em>a proposal for a System called Mesh which described a more elaberate information management based on links in a readable text/hyperlinks
+        <br><em>1990: </em>Hypertextproject WorldWideWeb -> a web of hypertext-documents which are viewed by browsers
+        <br><em>1993: </em>the World Wide Web got free to anyone and the Mosaic Webbrowser was released
+        <br><i>The internet and the World Wide Web are not the same thing!</i>
+        <br><em>There are a couple of reasons why the World Wide Web was such a success.</em> One of them is the fact, that the Internet and Hypertext were married for the first time. Also these three technologies were essential for the development of
+        the World Wide Web as we know it.
+        <br><i>The URL (uniform resource locator) and URI(uniform resource identifier), or former UDI (universal document identifier) is a system for (globally) unique identifiers for resources on the Web</i>
+        <br><i>HTML aka <b>H</b>yper<b>t</b>ext <b>M</b>arkup <b>L</b>>anguage</i>
+        <br><i>HTTP aka The <b>H</b>yper<b>t</b>ext <b>T</b>ransfer <b>P</b>rotocol</i>
+        <br><i>It also had unidirectional links rather than bidirectional links</i>
+        <br><em>More infos to the URL: </em>
+        <br>It is also called web adress, even though this is just colloquially, and it is a reference to a (web) resource that specifies a location on a computer network and it's a mechanism for calling this resource up.
+        <br>The URL is often confused with the URI(Uniform Resource Identifier) even thoug it's just a specific form of an URI.
+        <br>The syntax can be very simple or a little bit complicated, it completely depends on the specifix URL. For example it could be [scheme]:[path] which is basically the simplest form.
+        <br>Now you can build on this our "own" URL. After the [scheme]: you can add "//[host]" and after [path] "?[query]"so it would be [scheme]://[host][path]?[query]. But up on this you can build even more stuff.
+        <br>After the "//" we can add "userinfo@" and after the "[host]" you can add ":[port]" so it finally would be <em>[scheme]://[userinfo]@[host]:[port][path]?[query]</em>
+        <br>Some possibles schemes are http, https, ftp, mailto and so on.
+
+    </p>
+    <p>
+        <strong>Web Server</strong>
+        <br>A webserver shall store, process and deliver webpages to clients. The communication between the server and the client takes place using http. Mostly delivered are HTML Documents.
+        <br>A web browser or a web crawler starts to communicate by making a request for a specific resource using HTTP or HTTPS. The server responds with the resource or an error.
+        <br>But content can also be received from clients. This is used e.g. for web forms.
+        <br>A lot of generic web servers nowadays also support server side scripting using a couple of scripting languages like PHP.
+    </p>
+    <p>
+        <strong>Web Client</strong>
+        <br>Also known as Web Browser, a web client is an application for accessing information on the world wide web. It fetches information resources and displays them to an end device like a computer.
+        <br>The process is the following: The user inputs a URL, the rendering engine of the browser renders it and then displays it.
+    </p>
+    <p>
+        <strong>Hello World</strong>
+        <br><em>About Doctype</em>
+        <br>The &lt!DOCTYPE&gt on the head of a html document exists to show the browser the version of html that is used. It's not always required but you should still use it always.
+        <br><em>About the body element</em>
+        <br>The &ltbody&gt element contains all of the contents such as text, images and other.
+        <br><em>About the em element</em>
+        <br>The &ltem&gt tag is used to show important text that should be higlighted from the rest of the text.
+        <br><em>About the head element</em>
+        <br>The &lthead&gt element contains all of the metadata and things like the &ltstyle&gt tag, the &ltscript&gt tag or the &ltlink&gt tag.
+        <br><em>About the html tag</em>
+        <br>The &lthtml&gt element shows the browser that the following document is a html document. It also is the root for all of the other tags and elements of the html document.
+        <br><em>About the strong element</em>
+        <br>The &ltstrong&gt exists for basically the same reason as the &ltem&gt tag. It just has a other style, it's kinda bold, which is also very useful sometimes.
+        <br><em>About the title element</em>
+        <br>The &lttitle&gt element is required in a html document, it is basically just the title of the document. It is between the &lthead&gt tags.
+        <br>
+        <br>By the way. I managed to use the tags in the text with &#038;lt (&lt) or &#038;gt (&gt).
+        <br> Generally you can make special characters (that mean something else in HTML like &lt and &#038;) by using &#038;&#035; and then the Hexadecimal code for that specific character.
+        <br>It is also important to put a ; at the end of the code, so the browser notices, that this is not a colorcode but a HTML Code.
+    </p>
+    <br>
+    <br>
+    <p>
+      <strong>HTML</strong>
+      <br><em>Basics</em>
+      <br>HTML links are mid with the &lta&gt tag. In the opening tag you write href="saintvis.com/pages.html" and then you can write an attribute, which provides extra information about the link
+      <br>HTML Images are defined through the &ltimg&gt tag. Source and alternative text are made like this: &ltimg src= "home/image.jpg" alt="picture" width="100"px heigth="100px"&gt.
+      If you wanna use images from an other server, you just have to type in the URL of the server where the images are located. If the image is just in another folder you have to e.g. type in href="/images/html5.gif"
+      <br>HTML Buttons are defined with the &ltbutton&gtClick Me&lt/button&gt
+      <br>HTML Lists can be created with the &ltul&gt (unorderderd list) tag or with &ltol&gt (ordered list), followed by &ltli&gt. Just like this:<br>&ltul&gt<br>   &ltli&gt<br>  &lt/li&gt<br>&lt/ul&gt
+      <em>Attributes</em>
+      <br>href is defined in the &lta&gt tag
+      <br>The style attribute is used to style an element like color, font, size etc. It's used like this: &ltp style="color:red"&gtI am a new paragraph&lt/p&gt
+      <br>The lang attribute should be written in the html opening tag: &lthtml lang="en-US"&gt
+      <br><em>Headings</em>
+      <br>Special things bout headings: Browsers automatically create some white space before and after the heading. You should use them for Headings only, if you wanna highlight a text you can either make it strong or style it with the style attribute.
+      <br>Of course you can style a heading with the style attribute. An &lthr&gt tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule. And it's basically just a fucking line.
+      <br><em>Paragraphs</em>
+      <br>The HTML &ltpre&gt element defines preformatted text. The text inside a &ltpre&gt element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+      <br><em>Comments</em>
+      <br>You can create Comments using &lt!--Comment--&gt
+      <br><em>Links</em>
+      <br>There are absolute and releative links, absolute Links are links to a completely new website, relative Links are just e.g. HTML Files on the same website, so these are local Links
+      <br><em>Head/Meta</em>
+      <br>The meta in the head can be a couple of different things. e.g. the charset="utf-8" or you can describe a page with &ltmeta name="description" content="Description of the page" or keywords etc. here are a couple of examples:
+      <br>&ltmeta charset="UTF-8"&gt
+      <br>&ltmeta name="description" content="Free Web tutorials"&gt
+      <br>&ltmeta name="keywords" content="HTML,CSS,XML,JavaScript"&gt
+      <br>&ltmeta name="author" content="John Doe"&gt
+      <br>With html5 you can also set the viewport over the meta tag. You can simply type <&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt. It basically allows you to e.g. resize the text if your device is a smartphone or smth
+      </p>
+      <p>
+        <strong>CSS</strong>
+        <em>Link Colors</em>
+        First of all: Link Colors. You can change link colors by using
+        <br>a:link{
+          <br>color=green;
+          <br>background-color= transparent;
+          <br>text-decoration: none;
+          <br>}
+          <br> and so on with a:visited and a:active
+        <br><em>Basics</em>
+        <br>All in all, a CSS Rule should have following components: First of all, you need something like h1, p, h3, body or something like that. These are things you can style. Then you need brackets{} and withing these brackets you can change things like color, font, size and so on. The advantage of css instead of the style attribute in html is, that you can take a css file for a lot of different websites.
+      </p>
+</body>
+
+</html>
