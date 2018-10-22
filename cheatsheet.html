@@ -3,11 +3,12 @@
 
 <head>
     <meta encoding="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Cheatsheet</title>
 </head>
 
-<body style="background-color:#d8e7ff">
-    <font size="60" face="Impact" color="#434547"><center>Cheatsheet</font></center>
+<body>
+    <h1>Cheatsheet</h1>
     <p>
 
         <strong>World Wide Web</strong>
@@ -68,47 +69,126 @@
     <br>
     <br>
     <p>
-      <strong>HTML</strong>
-      <br><em>Basics</em>
-      <br>HTML links are mid with the &lta&gt tag. In the opening tag you write href="saintvis.com/pages.html" and then you can write an attribute, which provides extra information about the link
-      <br>HTML Images are defined through the &ltimg&gt tag. Source and alternative text are made like this: &ltimg src= "home/image.jpg" alt="picture" width="100"px heigth="100px"&gt.
-      If you wanna use images from an other server, you just have to type in the URL of the server where the images are located. If the image is just in another folder you have to e.g. type in href="/images/html5.gif"
-      <br>HTML Buttons are defined with the &ltbutton&gtClick Me&lt/button&gt
-      <br>HTML Lists can be created with the &ltul&gt (unorderderd list) tag or with &ltol&gt (ordered list), followed by &ltli&gt. Just like this:<br>&ltul&gt<br>   &ltli&gt<br>  &lt/li&gt<br>&lt/ul&gt
-      <em>Attributes</em>
-      <br>href is defined in the &lta&gt tag
-      <br>The style attribute is used to style an element like color, font, size etc. It's used like this: &ltp style="color:red"&gtI am a new paragraph&lt/p&gt
-      <br>The lang attribute should be written in the html opening tag: &lthtml lang="en-US"&gt
-      <br><em>Headings</em>
-      <br>Special things bout headings: Browsers automatically create some white space before and after the heading. You should use them for Headings only, if you wanna highlight a text you can either make it strong or style it with the style attribute.
-      <br>Of course you can style a heading with the style attribute. An &lthr&gt tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule. And it's basically just a fucking line.
-      <br><em>Paragraphs</em>
-      <br>The HTML &ltpre&gt element defines preformatted text. The text inside a &ltpre&gt element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
-      <br><em>Comments</em>
-      <br>You can create Comments using &lt!--Comment--&gt
-      <br><em>Links</em>
-      <br>There are absolute and releative links, absolute Links are links to a completely new website, relative Links are just e.g. HTML Files on the same website, so these are local Links
-      <br><em>Head/Meta</em>
-      <br>The meta in the head can be a couple of different things. e.g. the charset="utf-8" or you can describe a page with &ltmeta name="description" content="Description of the page" or keywords etc. here are a couple of examples:
-      <br>&ltmeta charset="UTF-8"&gt
-      <br>&ltmeta name="description" content="Free Web tutorials"&gt
-      <br>&ltmeta name="keywords" content="HTML,CSS,XML,JavaScript"&gt
-      <br>&ltmeta name="author" content="John Doe"&gt
-      <br>With html5 you can also set the viewport over the meta tag. You can simply type <&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt. It basically allows you to e.g. resize the text if your device is a smartphone or smth
-      </p>
-      <p>
-        <strong>CSS</strong>
-        <em>Link Colors</em>
-        First of all: Link Colors. You can change link colors by using
-        <br>a:link{
-          <br>color=green;
-          <br>background-color= transparent;
-          <br>text-decoration: none;
-          <br>}
-          <br> and so on with a:visited and a:active
+        <strong>HTML</strong>
         <br><em>Basics</em>
-        <br>All in all, a CSS Rule should have following components: First of all, you need something like h1, p, h3, body or something like that. These are things you can style. Then you need brackets{} and withing these brackets you can change things like color, font, size and so on. The advantage of css instead of the style attribute in html is, that you can take a css file for a lot of different websites.
-      </p>
+        <br>HTML links are mid with the &lta&gt tag. In the opening tag you write href="saintvis.com/pages.html" and then you can write an attribute, which provides extra information about the link
+        <br>HTML Images are defined through the &ltimg&gt tag. Source and alternative text are made like this: &ltimg src= "home/image.jpg" alt="picture" width="100"px heigth="100px"&gt. If you wanna use images from an other server, you just have to type
+        in the URL of the server where the images are located. If the image is just in another folder you have to e.g. type in href="/images/html5.gif"
+        <br>HTML Buttons are defined with the &ltbutton&gtClick Me&lt/button&gt
+        <br>HTML Lists can be created with the &ltul&gt (unorderderd list) tag or with &ltol&gt (ordered list), followed by &ltli&gt. Just like this:<br>&ltul&gt<br> &ltli&gt<br> &lt/li&gt<br>&lt/ul&gt
+        <em>Attributes</em>
+        <br>href is defined in the &lta&gt tag
+        <br>The style attribute is used to style an element like color, font, size etc. It's used like this: &ltp style="color:red"&gtI am a new paragraph&lt/p&gt
+        <br>The lang attribute should be written in the html opening tag: &lthtml lang="en-US"&gt
+        <br><em>Headings</em>
+        <br>Special things bout headings: Browsers automatically create some white space before and after the heading. You should use them for Headings only, if you wanna highlight a text you can either make it strong or style it with the style attribute.
+        <br>Of course you can style a heading with the style attribute. An &lthr&gt tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule. And it's basically just a fucking line.
+        <br><em>Paragraphs</em>
+        <br>The HTML &ltpre&gt element defines preformatted text. The text inside a &ltpre&gt element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+        <br><em>Comments</em>
+        <br>You can create Comments using &lt!--Comment--&gt
+        <br><em>Links</em>
+        <br>There are absolute and releative links, absolute Links are links to a completely new website, relative Links are just e.g. HTML Files on the same website, so these are local Links
+        <br><em>Head/Meta</em>
+        <br>The meta in the head can be a couple of different things. e.g. the charset="utf-8" or you can describe a page with &ltmeta name="description" content="Description of the page" or keywords etc. here are a couple of examples:
+        <br>&ltmeta charset="UTF-8"&gt
+        <br>&ltmeta name="description" content="Free Web tutorials"&gt
+        <br>&ltmeta name="keywords" content="HTML,CSS,XML,JavaScript"&gt
+        <br>&ltmeta name="author" content="John Doe"&gt
+        <br>With html5 you can also set the viewport over the meta tag. You can simply type &ltmeta name="viewport" content="width=device-width, initial-scale=1.0" &gt. It basically allows you to e.g. resize the text if your device is a smartphone or
+        smth
+    </p>
+    <p>
+        <strong>CSS</strong>
+        <em>Link Colors</em> First of all: Link Colors. You can change link colors by using
+        <br>a:link{
+        <br>color=green;
+        <br>background-color= transparent;
+        <br>text-decoration: none;
+        <br>}
+        <br> and so on with a:visited and a:active
+        <br><em>Basics</em>
+        <br>All in all, a CSS Rule should have following components: First of all, you need something like h1, p, h3, body or something like that. These are things you can style. Then you need brackets{} and withing these brackets you can change things
+        like color, font, size and so on. The advantage of css instead of the style attribute in html is, that you can take a css file for a lot of different websites.
+        <br>Grouping selectors are for example, if you have h1, h2 and p styled with the same stuff, you can just group them:
+        <br>h1,h2,p{
+        <br> text-align:center;
+        <br> color:red;
+        <br>}
+        <br>Comments are not just a thing in HTML. In CSS they are made with /* and */.
+        <br><em>Colors</em>
+        <br>Colors are specified using predefined color names or RGB/HEX/HSL/RGBA/HSLA values.
+        <br>In html a color can be specified using a color name such as tomato, orange etc.
+        <br>The backgroundcolor can be setted with e.g. &lth1 style="background-color:DodgerBlue;"&gtHello&lt/h1&gt
+        <br>Text Color is made with e.g. &lth1 style="color:DodgerBlue;"&gtHello&lt/h1&gt
+        <br>Border Colors are setted with &lth1 style="border:2px solid Tomato;">Hello</h1>
+        <br>If you wanna use rgb you can just write rgba(colorvalue1,colorvalue2,colorvalue3,opacity), but you can also use hexa with the # and then the hexa code etc
+        <br><em>Background</em>
+        <br>I already described how to put a Backroundcolor(in CSS: body{backround-color:blue}. To set a background picture, you have to to type body{backround-image:url("paper.jpg")}
+        <br>Some pictures will reapeat, even though you just want them to repeat horizontally/vertically and not both. To fix this, just type
+        <br>body{
+        <br> background-image:url("gradient_bg.png");
+        <br>background-repeat:repeat-x;
+        <br>}
+        <br>To fix a position, type background-attachement:fixed;
+        <br><em>Text</em>
+        <br>Set text color in css: e.g. body{color: blue;} or h1{color:green;}. To set the Text alignment just write text-align=center; or whatever you wanna do. For text decoration just use p{text-decoration: [none/overline/line-through/underline]} For
+        text transformation is used to specif uppercase/lowercasse letters in a text. It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word. eg.:text-transform=uppercase; or text-transform lowercase/capitalize(to
+        make every first letter uppercase);
+        <br><em>Fonts</em>
+        <br>The difference between serif and sans serif is that sans serif dont have these little guys on the letters. yos. Also we have Font families, which are specific like times new roman or arial or impact. The font-family property should hold several
+        font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if
+        no other fonts are available.
+        <br>Also we have font style which is mostly used in italic text. The property has three values_ normal, italic and oblique(basically like italic, but less supported)
+        <br>The font-size sets the size of the text, but you should always use &lth1&gt-&lth6&gt for headings. The font-size can be absolute or relative. Absolute size: text is a specified size, doesn't allow the user to change the text size in all browsers,
+        absolute size is useful when the physical size of the output is known. Relative size sets the size relative to surrounding elements, allows a user to change the text size in browsers.
+        <br>You can set the size of the font with pixels by just write font-size:40px or font size with em. This is recommended. 1em=current font size. The default size for default text is 16px. It also can be calculated w/ pixels by using the formula
+        pixels/16=em. To use em just write font-size:1.728em;
+        <br>To set the font weight you have basically 2 options: font-weight:normal or bold.;
+        <br><em>Link</em>
+        <br>To style links you have plenty of options. The attribute is a{} btw. Besides just the color or smth. you can style an unvisited link by a:link, a:visited for a visited one etc. (a.hover[mouse over the link], a:active if it is selected). When
+        setting the style a:hover must come after a:link and a:visited and a:active must come after a:hover.
+        <br><em>Combinators</em>
+        <br>Between the simple css selectores we can include a combinator. There are 4 different combinators in CSS:
+    </p>
+    <ul>
+        <li>descendant selector(space): It matches all elements that are after(descendants) of a specified elements. e.g. all p elements inside the body or inside a var element </li>
+        <li>child selector(>): selects all elements that are the immediate children of a specified element. Means: if a p is in var and in bold, it isn't a child</li>
+        <li>adjacent sibling selector(+): Selects all elements that are the adjacent siblings of a specified element. They have to have the same parent element and adjacent means immediately following. So for var+p, if the var ends, the next p will be selected,
+            and only if it is immediately after the var.</li>
+        <li>and the general sibling selector(~): selects all elements that are siblings of a specified element.</li>
+    </ul>
+    <p>
+        <em>Pseudo Classes</em>
+        <br>syntax: <br>
+        <code>selector:pseudo-class{
+                <br>property:value;
+            <br>}
+            </code>
+        <br>Links can be displayed in different ways, these are pseudo-classes too. CSS Classes and Pseudo-classes can be combined. eg when you hover over a link, it will change color: a.highlight:hover{color:&h35ff0000}.
+        <br>The hover on &ltdiv&gt: Here is an example of using the :hover pseudo class on a div element.
+        <br><code>div:hover{
+                background-color:blue;
+            <br>}
+            </code>
+    </p>
+    <input type="button" onclick="window.open('https://www.google.at/')" value="Example of an input-button with hover.">;
+    <p>The _first-child Pseudo-class: The _first-child pseudo-class matches a specified element that is the first child of antoher element. e.g.:
+        <code><br>p:first-child{
+            <br>color: blue;
+        <br>}
+        </code>
+        <br>So it basically just changes the first paragraph element for example.
+        <br><code>p i:first-child{
+        <br>color:blue;
+        <br>}
+        </code>
+        <br>Here it takes the first &lti&gt of every paragraph and changes it. To change all &lti&gt only in the first paragraph you have to type:
+        <br><code>p:first-child i{
+            <br>color:blue;
+            <br>}
+        </code>
+    </p>
 </body>
 
 </html>
